@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="">
+    
         <header class="header">
             <div class="container header-container">
                 <nav class="header-nav">
@@ -40,19 +40,24 @@
                     </ul>
                 </nav>
                 <ul class="header-contacts-list">
+                    <div class="gob">
                     <li class="header-contact-item">
                         <a class="header-contact-link" href="mailto:info@devstudio.com">
                             <svg class="contact-icon icon-envelope" width="16px" height="12px">
                                 <use href="./images/icons.svg#icon-envelope"></use>
                             </svg>
                             info@devstudio.com</a>
+                        </div>
                     </li>
+
                     <li class="header-contact-item">
+                        <div class="gob">
                         <a class="header-contact-link width" href="tel:+380961111111">
                             <svg class="contact-icon icon-smartphone" width="12px" height="16px">
                                 <use href="./images/icons.svg#icon-smartphone"></use>
                             </svg>
                             +38 096 111 11 11</a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -126,9 +131,13 @@
                 <div class="container">
                     <h2 class="img-box-title title">Чим ми займаємося</h2>
                     <ul class="img-box-list">
+                        <div class="wraper">
                         <li class="img-box-item">
                             <img src="./images//box1.jpg" alt="фото програмування" width="370" />
                         </li>
+                        <div class="overlay-box"></div>
+                        <p></p>
+                    </div>
                         <li class="img-box-item">
                             <img src="./images//box2.jpg" alt="фото телефону" width="370" />
                         </li>
@@ -298,6 +307,7 @@
                 </div>
             </section>
             <section class="clients">
+                <div class="container">
                 <h2 class="clients-title">Постійні клієнти</h2>
                 <ul class="client-list">
                     <li>
@@ -337,13 +347,14 @@
                             </svg></a>
                     </li>
                 </ul>
-
+             </div>
             </section>
         </main>
 
         <footer class="footer">
             <div class="container">
-             
+                <div class="footer-container">
+             <div class="footer-folow">
                 <a href="./index.html" class="footer-logo">
                     <span class="first-part-logo">Web</span><span
                         class="last-part-logo last-color-logo">Studio</span></a>
@@ -364,9 +375,9 @@
                             </li>
                         </ul>
                     </address>
-                
-                <div class="foolow"></div>
-                    <h2 class="footer-icon-title">ПРИЄДНУЙТЕСЬ</h2>
+                </div>
+                <div class="folow">
+                    <p class="footer-icon-title">ПРИЄДНУЙТЕСЬ</p>
                     <ul class="footer-icon-item">
                         <li><a href="#" class="footer-link-icon"><svg class="footer-icon" width="20" height="20">
                                     <use href="./images/icons.svg#instagram"></use>
@@ -385,11 +396,11 @@
                                 </svg></a></li>
                     </ul>
                 </div>
-               
+            </div>
                 
             </div>
         </footer>
-    </div>
+
 </body>
 
 </html>
